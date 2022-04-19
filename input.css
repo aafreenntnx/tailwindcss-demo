@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+	font-family: 'Lato', 'sans-serif';
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myBtn {
+	@apply bg-purple-900;
+	@apply shadow-2xl;
+}
+.myBtn:hover {
+	@apply bg-purple-300;
+	@apply shadow-inner;
+}
